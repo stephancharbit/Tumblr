@@ -2,20 +2,20 @@
 
 The purpose of this homework is to leverage animations and gestures to create custom navigation. We're going to use the techniques from this week to implement some interactions in Tumblr.
 
-Time spent: `<Number of hours spent>`
+Time spent: 12 hours
 
 ### Features
 
 #### Required
 
-- [ ] Tapping on Home, Search, Account, or Trending should show the respective screen and highlight the tab bar button.
-- [ ] Compose button should modally present the compose screen.
+- [X] Tapping on Home, Search, Account, or Trending should show the respective screen and highlight the tab bar button.
+- [X] Compose button should modally present the compose screen.
 
 #### Optional
 
-- [ ] Compose screen is faded in while the buttons animate in.
-- [ ] Login button should show animate the login form over the view controller.
-- [ ] Discover bubble should bob up and down unless the SearchViewController is tapped.
+- [X] Compose screen is faded in while the buttons animate in.
+- [X] Login button should show animate the login form over the view controller.
+- [X] Discover bubble should bob up and down unless the SearchViewController is tapped.
 
 #### The following **additional** features are implemented:
 
@@ -23,7 +23,7 @@ Time spent: `<Number of hours spent>`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
+1. Correct settings for Scroll views and and contents
 2. 
 
 ### Video Walkthrough 
@@ -36,6 +36,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+– I can't seem to get the scroll view in the 'Feed' tab to work correctly – something to do with positioning and autoresizing... grrr.
+– The 'account' button won't deselect... I have tried re-creating the button from scratch, and copying over a working button from one of the other tab bar buttons, but no luck
+– The positioning of the various image views in the Home view is not what is represented in interfcae builder
 
 * Any libraries or borrowed content.
