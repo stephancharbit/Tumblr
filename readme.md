@@ -37,7 +37,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 – I can't seem to get the scroll view in the 'Feed' tab to work correctly – something to do with positioning and autoresizing... grrr.
+
 – The 'account' button won't deselect... I have tried re-creating the button from scratch, and copying over a working button from one of the other tab bar buttons, but no luck
+
 – The positioning of the various image views in the Home view is not what is represented in interfcae builder
 
 * Any libraries or borrowed content.
